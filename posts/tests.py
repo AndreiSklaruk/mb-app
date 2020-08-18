@@ -31,5 +31,5 @@ class HomePageViewTest(TestCase):
         self.assertEqual(resp.status_code, 200)
         self.assertTemplateUsed(resp, 'home.html')
 
-        
+
 
